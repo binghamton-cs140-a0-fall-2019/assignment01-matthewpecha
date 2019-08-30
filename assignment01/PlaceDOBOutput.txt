@@ -1,0 +1,35 @@
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and Place of birth: 2000-01-01, Charlotte, NC, USA
+Date and Place of birth: 1955-05-15, Seattle, WA, USA
+Date and Place of birth: 1977-03-22, Naples, FL, USA
+Date and Place of birth: 1994-03-22, Montreal, Canada
+Date and Place of birth: 1994-03-22, Monterrey, Mexico
+
+Tests for olderThan method: 
+false false false false
+true true true true
+true false true true
+true false false false
+true false false false
+
+Tests for youngerThan method: 
+true true true true
+false false false false
+false true false false
+false true true false
+false true true false
+
+Tests for hasSameBirthDateAs method: 
+false false false false
+false false false false
+false false false false
+false false false true
+false false false true
+
+Tests for hasSameBirthDayAs method: 
+false false false false
+false false false false
+false false true true
+false false true true
+false false true true

@@ -1,0 +1,8 @@
+
+TESTS FOR StreetUSAddress.java:
+321 Secondary St
+Apt 15
+Binghamton, NY 13903
+
+16 Cat Circle
+Binghamton, NY 13902

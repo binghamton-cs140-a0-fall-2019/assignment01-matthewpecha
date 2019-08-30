@@ -1,0 +1,7 @@
+
+TESTS FOR Person.java:
+Michael Cera Sr. (211324333), 
+Date and Place of birth: 1945-05-29, Binghamton, NY, USA 
+17 Lane Drive
+Apt 04
+Portland, Oregon 97035

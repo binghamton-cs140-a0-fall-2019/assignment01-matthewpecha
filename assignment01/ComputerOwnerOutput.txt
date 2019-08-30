@@ -1,0 +1,21 @@
+
+TESTS FOR ComputerOwner.java:
+Owner with four computers:
+
+Computer List: 
+Owner: Michael Cera (112233334), 
+Date and Place of birth: 1990-01-14, Fort Worth, Texas, USA 
+40 Jimmy Road
+Condo 313
+Portland, Oregon 97035
+Computers: []
+
+Owner with two computers:
+
+Computer List: 
+Owner: Michael Cera (112233334), 
+Date and Place of birth: 1990-01-14, Fort Worth, Texas, USA 
+40 Jimmy Road
+Condo 313
+Portland, Oregon 97035
+Computers: []

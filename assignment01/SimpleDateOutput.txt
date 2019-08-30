@@ -1,0 +1,3 @@
+
+TESTS FOR SimpleDate.java:
+Date 2 is Before Date 1: true

@@ -1,0 +1,6 @@
+
+TESTS FOR Computer.java:
+Dell, Intel, 8GB Memory, 500GB Hard Drive, Price: $200.00 
+Asus, AMD, 16GB Memory, 2.0TB Hard Drive, Price: $700.00 
+Apple, Intel, 8GB Memory, 120GB Solid State Drive, Price: $1300.00 
+HP, AMD, 32GB Memory, 5.0TB Solid State Drive, Price: $1700.00 
