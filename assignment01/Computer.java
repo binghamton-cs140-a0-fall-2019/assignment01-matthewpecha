@@ -1,11 +1,5 @@
 package assignment01;
-/**
- * Class to store information about a personal computer with the
- * basic information stored in an advertisement for a computer.
- * 
- * @author CS 140
- *
- */
+
 public class Computer {
 	private String brand;
 	private String cpuDescription;
@@ -13,17 +7,12 @@ public class Computer {
 	private int diskGB;
 	private boolean SSD;
 	private double purchasePrice;
-
-	/**
-	 * Initialization constructor used to give initial values to all the fields 
-	 * @param aBrand the brand name of this computer
-	 * @param cpuDesc brief description of the cpu of this computer
-	 * @param ram amount of ram in GB in this computer
-	 * @param disk size of hard drive in GB in this computer
-	 * @param ssd true if the hard drive is solid state
-	 * @param purchPrice the purchase price of this computer
-	 */
-	public Computer(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
+	
+	public Computer(
+			String aBrand, String cpuDesc,
+			int ram, int disk,
+			boolean ssd,
+			double purchPrice) {
 		brand = aBrand;
 		cpuDescription = cpuDesc;
 		ramGB = ram;
@@ -73,7 +62,7 @@ public class Computer {
 	public boolean isSSD() {
 		return SSD;
 	}
-	
+
 	/**
 	 * The toString method is overridden to provide a summary of this computer. If the hard drive
 	 * is larger than one terabyte, the String contains the disk size in terabytes. The purchase price
@@ -95,3 +84,4 @@ public class Computer {
 					+ diskStr + "Price: $%.2f ", purchasePrice); 
 	}
 }
+
